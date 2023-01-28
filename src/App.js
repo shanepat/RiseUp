@@ -15,7 +15,7 @@ function App() {
       <label for="lname">Birth date:</label>
       <input type="date" id="bday" name="bday"/><br/>
       <input type="submit" value="Submit"/>
-
+      <h1> Hello World! </h1>
 
     </div>
   );
