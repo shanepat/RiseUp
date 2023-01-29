@@ -9,10 +9,6 @@
     background-color: #725ac1;
  }
 
- #icon {
-   width: 170px;
- }
-
  #title {
     font-family: Glacial Indifference, sans-serif;
     color: #D6BBC0;
@@ -78,9 +74,13 @@
  }
 
  #body {
-   background-color: #725ac1;
-   text-align: center;
-}
+    background-color: #725ac1;
+    text-align: center;
+ }
+
+ #icon{
+    width: 10%;
+ }
 
  .continue {
     width: 150px;
