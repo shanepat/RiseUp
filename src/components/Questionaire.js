@@ -50,11 +50,11 @@ export const Questionaire = () => {
         <label for="fname">No</label>
         <input type="checkbox" id="n6" name="n6" />
       </div>
-        <br/>
-          <button onClick={() => navigate(-1)}> Back! </button>
-          <button onClick={() => navigate("/JobBoard")}> Next! </button>
-        </div>
-        )
+      <br />
+      <button onClick={() => navigate(-1)}> Back! </button>
+      <button onClick={() => navigate("/JobBoard")}> Next! </button>
+    </div>
+  )
 }
 
-        export default Questionaire
+export default Questionaire
