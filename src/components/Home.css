@@ -91,3 +91,8 @@
     color: white;
     border: none;
  }
+
+ .img {
+   width: 2000px;
+   height: 2000px;
+ }
