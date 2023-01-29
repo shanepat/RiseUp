@@ -4,4 +4,5 @@ RiseUp is an innovative app designed to empower and help homeless individuals ar
 
 To run the program
 - npm install
+- npm install react-router-dom
 - npm start
