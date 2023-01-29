@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
 
-import icon from '../Rose Gold Brush Glitter Feminine Boutique Circle Logo.gif'
+import icon from '../riseup1.png'
 
 export const Home = () => {
   const navigate = useNavigate();
