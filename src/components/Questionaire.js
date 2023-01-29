@@ -14,7 +14,7 @@ export const Questionaire = () => {
         <br />
         <img id="icon" src={icon} />
       </div>
-      <div>
+      <div id="center">
       <div id="title" data-aos="zoom-in-up" data-aos-delay="200">
         <h1>Fill us in</h1>
         <p>
@@ -26,7 +26,7 @@ export const Questionaire = () => {
         <label for="fname">Yes</label>
         <input type="checkbox" id="y1" name="y1" />
         <label for="fname">No</label>
-        <input type="checkbox" id="n1" name="n1" />g
+        <input type="checkbox" id="n1" name="n1" />
       </div>
       <div class="question2" data-aos="zoom-in-up" data-aos-delay="600">
         <p>I am open to new things</p>

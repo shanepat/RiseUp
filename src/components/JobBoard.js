@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 import './JobBoard.css'
+import icon from '../riseup1.png'
 
 export const JobBoard = () => {
   const navigate = useNavigate();
