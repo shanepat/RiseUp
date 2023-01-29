@@ -53,6 +53,9 @@ export const Questionaire = () => {
       <br/>
       <button class="continue" onClick={() => navigate(-1)}> Back </button>
       <button class="continue" onClick={() => navigate("/JobBoard")}> Continue </button>
+      <br></br>
+      <br></br>
+      
     </div>
   )
 }

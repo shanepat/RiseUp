@@ -14,14 +14,19 @@ export const Home = () => {
 
   return (
     <div id="body">
+      <br/>
+      <br/>
+      <br/>
       <img id="icon" src={icon}/><br/><br/>
-      <label for="fname">First name:</label>
+      <h1> Welcome to RiseUp! </h1> <br/> <br/>
+      
+      <label for="fname"><b>First name:</b></label>
       <input type="text" id="fname" name="fname"/><br/><br/>
-      <label for="lname">Last name:</label>
+      <label for="lname"><b>Last name:</b></label>
       <input type="text" id="lname" name="lname"/><br/><br/>
-      <label for="lname">Birth date:</label>
+      <label for="lname"><b>Birth date:</b></label>
       <input type="date" id="bday" name="bday"/><br/><br/>
-      <button class="continue" onClick={handleClick}> Continue </button>
+      <button class="continue" onClick={handleClick}> <b> Continue </b> </button>
     </div>
   );
 }
