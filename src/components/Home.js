@@ -22,6 +22,7 @@ export const Home = () => {
       <input type="text" id="lname" name="lname"/><br/><br/>
       <label for="lname">Birth date:</label>
       <input type="date" id="bday" name="bday"/><br/><br/>
+      {/* lambda function is also an option */}
       <button onClick={handleClick}> Submit! </button>
     </div>
   );
