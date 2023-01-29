@@ -1,0 +1,48 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3vh;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+#title {
+
+    
+    
+}
+
+#job-board {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.job-posting {
+    background-color: #A2E4B8;;
+    width: 90vw;
+    height: 15vh;
+    border-radius: 15px 15px 15px 15px;
+    padding-top: 2vh;
+    padding-left: 3vw;
+    transition: height 0.5s ease-in-out;
+}
+
+.posting-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.job-title {
+    font-size: 3vh;
+    weight: 2px;
+}
+
+.apply {
+    width: 13vw;
+    height: 4vh;
+    border-width: 0px;
+    border-radius: 7px;
+}

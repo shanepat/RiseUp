@@ -7,10 +7,7 @@ export const Questionaire = () => {
     <div>
       <h1>Questionaire</h1>
       <button onClick={() => navigate(-1)}> Back! </button>
-
-      {/* Todo: Add the next page */}
-      {/* <button onClick={() => navigate(1)}> Next! </button> */}
-      
+      <button onClick={() => navigate("/JobBoard")}> Next! </button>
     </div>
   )
 }

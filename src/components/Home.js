@@ -9,7 +9,7 @@ export const Home = () => {
 
   const handleClick = () => {
     setIsClicked(true);
-    navigate('/Questionaire');
+    navigate("/Questionaire");
   }
 
   return (
