@@ -17,6 +17,7 @@ function App() {
         <Route path="/Questionaire" element={<Questionaire/>}/>
         <Route path="/JobBoard" element={<JobBoard/>}/>
       </Routes>
+      <p> Hi! </p>
     </div>
   );
 }
