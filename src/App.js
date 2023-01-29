@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import icon from './Rose Gold Brush Glitter Feminine Boutique Circle Logo.gif'
+import React, { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
+
+import { Home } from './components/Home';
+import { Questionaire } from './components/Questionaire';
 
 import './App.css';
 
 function App() {
+
+
   return (
     <div className="App">
-      <img src={icon}/>
-      <h1>RiseUp</h1>
-
-      <label for="fname">First name:</label>
-      <input type="text" id="fname" name="fname"/><br/><br/>
-      <label for="lname">Last name:</label>
-      <input type="text" id="lname" name="lname"/><br/><br/>
-      <label for="lname">Birth date:</label>
-      <input type="date" id="bday" name="bday"/><br/><br/>
-      <input type="submit" value="Submit"/>
-      {/* <h1> Hello World! </h1> */}
-
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Questionaire" element={<Questionaire/>}/>
+      </Routes>
     </div>
   );
 }
