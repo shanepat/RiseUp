@@ -21,12 +21,7 @@ export const Home = () => {
       <input type="text" id="lname" name="lname"/><br/><br/>
       <label for="lname">Birth date:</label>
       <input type="date" id="bday" name="bday"/><br/><br/>
-<<<<<<< HEAD
-      {/* lambda function is also an option */}
-      <button onClick={handleClick}> Submit! </button>
-=======
       <button class="continue" onClick={handleClick}> Continue </button>
->>>>>>> ec811f82ac7524362a3cef3aad03a283778b4268
     </div>
   );
 }
