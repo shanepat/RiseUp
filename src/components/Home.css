@@ -18,6 +18,10 @@
     color: #D6BBC0;
  }
 
+ .jobboardt{
+   color: #D6BBC0;
+}
+
  #job-board {
     display: flex;
     flex-direction: column;

@@ -18,15 +18,29 @@ export const Home = () => {
       <br/>
       <br/>
       <img id="icon" src={icon}/><br/><br/>
-      <h1> Welcome to RiseUp! </h1> <br/> <br/>
+      <h1 class="jobboardt"> Welcome to RiseUp! </h1> <br/> <br/>
       
-      <label for="fname"><b>First name:</b></label>
+      <label for="fname" class="jobboardt"><b>First name:</b></label>
       <input type="text" id="fname" name="fname"/><br/><br/>
-      <label for="lname"><b>Last name:</b></label>
+      <label for="lname" class="jobboardt"><b>Last name:</b></label>
       <input type="text" id="lname" name="lname"/><br/><br/>
-      <label for="lname"><b>Birth date:</b></label>
+      <label for="lname" class="jobboardt"><b>Birth date:</b></label>
       <input type="date" id="bday" name="bday"/><br/><br/>
       <button class="continue" onClick={handleClick}> <b> Continue </b> </button>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
   );
 }
