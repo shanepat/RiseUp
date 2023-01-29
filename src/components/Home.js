@@ -13,16 +13,15 @@ export const Home = () => {
   }
 
   return (
-    <div>
-      <h1>RiseUp</h1>
-      <img src={icon}/><br/><br/>
+    <div id="body">
+      <img id="icon" src={icon}/><br/><br/>
       <label for="fname">First name:</label>
       <input type="text" id="fname" name="fname"/><br/><br/>
       <label for="lname">Last name:</label>
       <input type="text" id="lname" name="lname"/><br/><br/>
       <label for="lname">Birth date:</label>
       <input type="date" id="bday" name="bday"/><br/><br/>
-      <button onClick={handleClick}> Submit! </button>
+      <button class="continue" onClick={handleClick}> Continue </button>
     </div>
   );
 }

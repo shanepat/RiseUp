@@ -8,11 +8,11 @@ import icon from '../riseup1.png'
 export const Questionaire = () => {
   const navigate = useNavigate();
   return (
-    <div>
-      <h1>Questionaire</h1>
+    <div id="body">
+      <br></br>
       <div id="wrapper" data-aos="zoom-in-up" data-aos-delay="100">
         <br />
-        <img src={icon} />
+        <img id="icon" src={icon} />
       </div>
       <div id="title" data-aos="zoom-in-up" data-aos-delay="200">
         <h1>Fill us in</h1>
@@ -50,7 +50,7 @@ export const Questionaire = () => {
       </div>
       <br/>
       <button onClick={() => navigate(-1)}> Back! </button>
-      <button onClick={() => navigate("/JobBoard")}> Next! </button>
+      <button class="continue" onClick={() => navigate("/JobBoard")}> Continue </button>
     </div>
   )
 }

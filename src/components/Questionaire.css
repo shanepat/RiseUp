@@ -9,6 +9,10 @@
     background-color: #725ac1;
  }
 
+ #icon {
+   width: 170px;
+ }
+
  #title {
     font-family: Glacial Indifference, sans-serif;
     color: #D6BBC0;
@@ -57,7 +61,7 @@
 
  .job-title {
     font-size: 3vh;
-    weight: 2px;
+    width: 2px;
  }
 
  .apply {
@@ -72,6 +76,11 @@
     width: 100%;
     text-align: center;
  }
+
+ #body {
+   background-color: #725ac1;
+   text-align: center;
+}
 
  .continue {
     width: 150px;

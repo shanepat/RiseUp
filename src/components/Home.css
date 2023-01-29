@@ -57,7 +57,7 @@
 
  .job-title {
     font-size: 3vh;
-    weight: 2px;
+    width: 2px;
  }
 
  .apply {
@@ -71,6 +71,15 @@
     background-color: #725ac1;
     width: 100%;
     text-align: center;
+ }
+
+ #body {
+    background-color: #725ac1;
+    text-align: center;
+ }
+
+ #icon{
+    width: 10%;
  }
 
  .continue {
