@@ -25,7 +25,7 @@ export const Questionaire = () => {
         <label for="fname">Yes</label>
         <input type="checkbox" id="y1" name="y1" />
         <label for="fname">No</label>
-        <input type="checkbox" id="n1" name="n1" />
+        <input type="checkbox" id="n1" name="n1" />g
       </div>
       <div class="question2" data-aos="zoom-in-up" data-aos-delay="600">
         <p>I am open to new things</p>
@@ -48,7 +48,7 @@ export const Questionaire = () => {
         <label for="fname">No</label>
         <input type="checkbox" id="n6" name="n6" />
       </div>
-      <br />
+      <br/>
       <button onClick={() => navigate(-1)}> Back! </button>
       <button onClick={() => navigate("/JobBoard")}> Next! </button>
     </div>
