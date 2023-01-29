@@ -14,6 +14,7 @@ export const Questionaire = () => {
         <br />
         <img id="icon" src={icon} />
       </div>
+      <div>
       <div id="title" data-aos="zoom-in-up" data-aos-delay="200">
         <h1>Fill us in</h1>
         <p>
@@ -48,8 +49,9 @@ export const Questionaire = () => {
         <label for="fname">No</label>
         <input type="checkbox" id="n6" name="n6" />
       </div>
+      </div>
       <br/>
-      <button onClick={() => navigate(-1)}> Back! </button>
+      <button class="continue" onClick={() => navigate(-1)}> Back </button>
       <button class="continue" onClick={() => navigate("/JobBoard")}> Continue </button>
     </div>
   )
