@@ -21,13 +21,11 @@ export const Questionaire = () => {
         </p>
       </div>
       <div class="question1" data-aos="zoom-in-up" data-aos-delay="300">
-        {/* <form action="/action_page.php"/> */}
         <p>I like being in leadership position</p>
         <label for="fname">Yes</label>
         <input type="checkbox" id="y1" name="y1" />
         <label for="fname">No</label>
         <input type="checkbox" id="n1" name="n1" />
-        {/* </form> */}
       </div>
       <div class="question2" data-aos="zoom-in-up" data-aos-delay="600">
         <p>I am open to new things</p>
