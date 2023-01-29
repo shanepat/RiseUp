@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c88f1e48.css",
-    "main.js": "/static/js/main.0527897f.js",
+    "main.css": "/static/css/main.c4b37a9e.css",
+    "main.js": "/static/js/main.44d6eaa3.js",
     "static/js/787.62915862.chunk.js": "/static/js/787.62915862.chunk.js",
-    "static/media/Rose Gold Brush Glitter Feminine Boutique Circle Logo.gif": "/static/media/Rose Gold Brush Glitter Feminine Boutique Circle Logo.3510af9da1a845ddaafd.gif",
     "static/media/riseup1.png": "/static/media/riseup1.5f4639673394c9f5c1fd.png",
     "index.html": "/index.html",
-    "main.c88f1e48.css.map": "/static/css/main.c88f1e48.css.map",
-    "main.0527897f.js.map": "/static/js/main.0527897f.js.map",
+    "main.c4b37a9e.css.map": "/static/css/main.c4b37a9e.css.map",
+    "main.44d6eaa3.js.map": "/static/js/main.44d6eaa3.js.map",
     "787.62915862.chunk.js.map": "/static/js/787.62915862.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c88f1e48.css",
-    "static/js/main.0527897f.js"
+    "static/css/main.c4b37a9e.css",
+    "static/js/main.44d6eaa3.js"
   ]
 }
